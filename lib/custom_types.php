@@ -85,7 +85,7 @@ function lecture_book_type() {
 			'label'                 => __( 'book', 'lecture' ),
 			'description'           => __( 'writter book', 'lecture' ),
 			'labels'                => $labels,
-			'supports'              => array( 'title','thumbnail'),
+			'supports'              => array( 'title', 'editor', 'thumbnail', ),
 			'hierarchical'          => false,
 			'public'                => true,
 			'show_ui'               => true,
